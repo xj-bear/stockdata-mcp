@@ -1,0 +1,26 @@
+{
+    "name": "@imbear/stockdata-mcp",
+    "version": "1.0.0",
+    "description": "Financial Data MCP Server",
+    "main": "index.js",
+    "bin": {
+        "stockdata-mcp": "./index.js"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "mcp",
+        "stock",
+        "finance",
+        "akshare"
+    ],
+    "author": "imbear",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xj-bear/stockdata.git"
+    },
+    "license": "ISC",
+    "dependencies": {}
+}

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  stockdata-mcp:
+    build: .
+    image: xjbear/stockdata-mcp:latest
+    container_name: stockdata-mcp
+    ports:
+      - "9997:8000"
+    environment:
+      - MCP_MODE=sse
+    restart: unless-stopped

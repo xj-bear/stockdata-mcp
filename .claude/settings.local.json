@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__mcp-router__get_current_time",
+      "mcp__mcp-router__query_us_stock_data",
+      "mcp__mcp-router__get_stock_indicators",
+      "mcp__mcp-router__get_financial_report",
+      "mcp__mcp-router__get_trading_suggest",
+      "mcp__mcp-router__get_stock_news",
+      "mcp__mcp-router__get_stock_info",
+      "mcp__mcp-router__get_global_news"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

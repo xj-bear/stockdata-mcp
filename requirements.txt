@@ -1,0 +1,6 @@
+mcp
+akshare
+pandas
+starlette
+uvicorn
+httpx

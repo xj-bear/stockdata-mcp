@@ -1,0 +1,16 @@
+[project]
+name = "stock-mcp-server"
+version = "0.1.0"
+description = "MCP server for financial data (Stock, Index, Fund, Futures) using akshare"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp",
+    "akshare",
+    "pandas",
+    "starlette",
+    "uvicorn",
+    "httpx"
+]
+
+[project.scripts]
+server = "server:main"
