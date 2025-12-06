@@ -34,7 +34,7 @@ jobs:
         with:
           images: xjbear/stockdata-mcp
           tags: |
-            type=raw,value=latest,enable=${{ github.ref == 'format("refs/heads/{0}", "main")' }}
+            type=raw,value=latest
             type=semver,pattern={{version}}
 
       - name: Build and push Docker image
