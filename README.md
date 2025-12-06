@@ -69,7 +69,7 @@ npx @modelcontextprotocol/inspector python server.py
 ```bash
 # 在项目根目录下
 npm install
-npx @imbear/stockdata-mcp
+npx stockdata-mcp
 ```
 
 ## Cherry Studio 配置指南

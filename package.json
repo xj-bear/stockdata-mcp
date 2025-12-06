@@ -1,5 +1,5 @@
 {
-    "name": "@imbear/stockdata-mcp",
+    "name": "stockdata-mcp",
     "version": "1.0.0",
     "description": "Financial Data MCP Server",
     "main": "index.js",
